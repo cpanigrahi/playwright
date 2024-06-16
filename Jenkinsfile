@@ -1,12 +1,19 @@
 pipeline {
     agent any
+    
+    tools{
+    	maven 'mvn2'
+        }
  
     stages {
         stage('Test') {
             steps {
-                sh "mvn clean test"
+            
+                 git 'https://github.com/cpanigrahi/playwright.git'
+                 sh "mvn  clean package"
+     
             }
- 
+
             post {                
                 // If Maven was able to run the tests, even if some of the test
                 // failed, record the test results and archive the jar file.
