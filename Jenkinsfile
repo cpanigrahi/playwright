@@ -15,20 +15,15 @@ pipeline
                  git 'https://github.com/cpanigrahi/playwright.git'
                  sh "mvn -Dmaven.test.failure.ignore=true clean package"
             }
-            post {                
-                success {
-                   publishHTML([
-                       allowMissing: false, 
-                       alwaysLinkToLastBuild: false, 
-                       keepAll: false, 
-                       reportDir: 'target/surefire-reports/', 
-                       reportFiles: 'emailable-report.html', 
-                       reportName: 'HTML Report', 
-                       reportTitles: '', 
-                       useWrapperFileDirectly: true])
+            post 
+            {
+                success
+                {
+                    junit '**/target/surefire-reports/TEST-*.xml'
+                    archiveArtifacts 'target/*.jar'
                 }
             }
         }
+        
     }
-           
- }
+}
