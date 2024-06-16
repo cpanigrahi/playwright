@@ -13,7 +13,7 @@ pipeline
             steps
             {
                  git 'https://github.com/cpanigrahi/playwright.git'
-                 bat "mvn -D clean test"
+                 sh "mvn -D clean test"
             }
             post {                
                 success {
