@@ -13,11 +13,9 @@ pipeline
             steps
             {
                  git 'https://github.com/cpanigrahi/playwright.git'
-                 sh "mvn -Dmaven.test.failure.ignore=true clean package"
+                 bat "mvn -D clean test"
             }
             post {                
-                // If Maven was able to run the tests, even if some of the test
-                // failed, record the test results and archive the jar file.
                 success {
                    publishHTML([
                        allowMissing: false, 
