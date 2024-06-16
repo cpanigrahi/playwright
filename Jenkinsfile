@@ -1,10 +1,6 @@
 pipeline 
 {
     agent any
-    
-    tools{
-    	maven 'mvn2'
-        }
 
     stages 
     {
@@ -12,8 +8,7 @@ pipeline
         {
             steps
             {
-                 git 'https://github.com/cpanigrahi/playwright.git'
-                 sh "mvn -D clean test"
+                 bat "mvn -D clean test"
             }
             post {                
                 success {
