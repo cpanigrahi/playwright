@@ -8,7 +8,7 @@ pipeline
         {
             steps
             {
-                 bat "mvn -D clean test"
+                 sh "mvn -D clean test"
             }
             post {                
                 success {
