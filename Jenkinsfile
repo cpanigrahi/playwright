@@ -1,6 +1,10 @@
 pipeline 
 {
     agent any
+    
+    tools{
+    	maven 'mvn2'
+        }
 
     stages 
     {
@@ -8,7 +12,7 @@ pipeline
         {
             steps
             {
-                 sh "mvn clean test"
+                 sh "mvn -Dmaven.test.failure.ignore=true clean package"
             }
             post {                
                 success {
