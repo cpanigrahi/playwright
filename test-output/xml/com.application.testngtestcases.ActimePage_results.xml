@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="EmailTest1"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="7.276">
+    <properties></properties>
+
+
+
+            <testcase
+                name="emailtest1"
+                time="2.569"
+                classname="com.application.testngtestcases.ActimePage">
+            </testcase>
+            <testcase
+                name="emailtest"
+                time="4.707"
+                classname="com.application.testngtestcases.ActimePage">
+            </testcase>
+</testsuite>
