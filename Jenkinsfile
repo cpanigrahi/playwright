@@ -1,12 +1,20 @@
-pipeline {
+pipeline 
+{
     agent any
- 
-    stages {
-        stage('Test') {
-            steps {
-                bat "mvn -D clean test"
+    
+    tools{
+    	maven 'maven'
+        }
+
+    stages 
+    {
+        stage('Build') 
+        {
+            steps
+            {
+                 git 'https://github.com/cpanigrahi/playwright.git'
+                 sh "mvn -Dmaven.test.failure.ignore=true clean package"
             }
- 
             post {                
                 // If Maven was able to run the tests, even if some of the test
                 // failed, record the test results and archive the jar file.
@@ -24,4 +32,5 @@ pipeline {
             }
         }
     }
-}
+           
+ }
