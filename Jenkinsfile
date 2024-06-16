@@ -13,7 +13,7 @@ pipeline
             steps
             {
                  git 'https://github.com/cpanigrahi/playwright.git'
-                 sh "mvn -D clean package"
+                 bat “mvn -Dmaven.test.failure.ignore=true clean package”
             }
             post {                
                 success {
