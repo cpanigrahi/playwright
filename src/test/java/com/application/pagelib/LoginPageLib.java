@@ -18,7 +18,6 @@ public class LoginPageLib {
 		page.fill(usernameTextBox, emailid);
 		page.fill(pwdTextBox, password);
 		page.click(loginBtn);
-
 	}
 
 }

@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.application.testngtestcases.ActimePage">
+      <class name="playwrightconcepts.FindElements">
         <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="emailtest"/>
+          <include name="listOfElements"/>
         </methods>
-      </class> <!-- com.application.testngtestcases.ActimePage -->
+      </class> <!-- playwrightconcepts.FindElements -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
