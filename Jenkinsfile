@@ -11,7 +11,7 @@ pipeline {
             
                  git branch: 'main', 
                  url: 'https://github.com/cpanigrahi/playwright'
-                 
+                 bat "mvn -D clean test"
             }
 
         }
