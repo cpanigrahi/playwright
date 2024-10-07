@@ -9,9 +9,9 @@ pipeline {
         stage('Test') {
             steps {
             
-                 git 'https://github.com/cpanigrahi/playwright.git'
-                 sh "mvn clean package"
-     
+                 git branch: 'main', 
+                 url: 'https://github.com/cpanigrahi/playwright'
+                 
             }
 
             post {                
