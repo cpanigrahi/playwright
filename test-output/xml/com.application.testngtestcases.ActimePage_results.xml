@@ -4,19 +4,19 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="7.276">
+           time="4.500">
     <properties></properties>
 
 
 
             <testcase
-                name="emailtest1"
-                time="2.569"
+                name="emailtest4"
+                time="2.021"
                 classname="com.application.testngtestcases.ActimePage">
             </testcase>
             <testcase
                 name="emailtest"
-                time="4.707"
+                time="2.479"
                 classname="com.application.testngtestcases.ActimePage">
             </testcase>
 </testsuite>

@@ -13,7 +13,7 @@
 
 	<test name="EmailTest1">
 
-		<parameter name="browser" value="safari" />
+		<parameter name="browser" value="chrome" />
 
 		<classes>
 			<class name="com.application.testngtestcases.ActimePage" />

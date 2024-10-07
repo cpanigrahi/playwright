@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="11.068">
+    <properties></properties>
+
+
+
+            <testcase
+                name="getTitle"
+                time="11.068"
+                classname="application.Tooltip">
+            </testcase>
+</testsuite>

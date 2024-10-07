@@ -10,7 +10,7 @@ pipeline {
             steps {
             
                  git 'https://github.com/cpanigrahi/playwright.git'
-                 sh "mvn  clean package"
+                 sh "mvn clean package"
      
             }
 

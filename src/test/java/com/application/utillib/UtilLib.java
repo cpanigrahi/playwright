@@ -4,8 +4,17 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.Base64;
+import java.util.List;
 import java.util.Properties;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.CellType;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import com.microsoft.playwright.Browser;
 import com.microsoft.playwright.BrowserContext;
@@ -82,9 +91,6 @@ public class UtilLib {
 
 	}
 
-	/**
-	 * this method is used to initialize the properties from config file
-	 */
 	public Properties init_prop() {
 
 		try {
@@ -101,11 +107,6 @@ public class UtilLib {
 
 	}
 
-	/**
-	 * take screenshot
-	 * 
-	 */
-
 	public static String takeScreenshot() {
 		String path = System.getProperty("user.dir") + "/screenshot/" + System.currentTimeMillis() + ".png";
 		// getPage().screenshot(new
@@ -117,4 +118,15 @@ public class UtilLib {
 		return base64Path;
 	}
 
+	public static String excelReader(String sheetName, int rowNum, int cellNum) throws IOException {
+
+		FileInputStream file = new FileInputStream("./src/test/resources/DataFile.xlsx");
+
+		XSSFWorkbook wb = new XSSFWorkbook(file);
+
+		String data = wb.getSheet(sheetName).getRow(rowNum).getCell(cellNum).getStringCellValue();
+
+		return data;
+
+	}
 }
