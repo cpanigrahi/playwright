@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="playwrightconcepts.FindElements">
+      <class name="playwrightconcepts.AlertPopUp">
         <methods>
-          <include name="listOfElements"/>
+          <include name="alertPopUp"/>
         </methods>
-      </class> <!-- playwrightconcepts.FindElements -->
+      </class> <!-- playwrightconcepts.AlertPopUp -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

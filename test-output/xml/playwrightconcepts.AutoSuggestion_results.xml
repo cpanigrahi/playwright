@@ -4,14 +4,14 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="15.514">
+           time="14.155">
     <properties></properties>
 
 
 
             <testcase
                 name="autoSuggestion"
-                time="15.514"
+                time="14.155"
                 classname="playwrightconcepts.AutoSuggestion">
             </testcase>
 </testsuite>

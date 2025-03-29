@@ -4,14 +4,14 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="303.387">
+           time="33.409">
     <properties></properties>
 
 
 
             <testcase
                 name="alertPopUp"
-                time="303.387"
+                time="33.409"
                 classname="playwrightconcepts.AlertPopUp">
             </testcase>
 </testsuite>

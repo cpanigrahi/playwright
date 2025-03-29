@@ -1,63 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-02T16:29:19 IST" name="Suite" finished-at="2024-10-02T16:29:33 IST" duration-ms="14493">
+  <suite started-at="2025-02-04T16:24:21 IST" name="Default suite" finished-at="2025-02-04T16:24:29 IST" duration-ms="8372">
     <groups>
     </groups>
-    <test started-at="2024-10-02T16:29:19 IST" name="EmailTest1" finished-at="2024-10-02T16:29:31 IST" duration-ms="12453">
-      <class name="com.application.testngtestcases.ActimePage">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.application.testngtestcases.ActimePage@491b9b8]" started-at="2024-10-02T16:29:19 IST" name="setup" finished-at="2024-10-02T16:29:27 IST" duration-ms="7818" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2025-02-04T16:24:21 IST" name="Default test" finished-at="2025-02-04T16:24:29 IST" duration-ms="8372">
+      <class name="testpackage.Checkbox">
+        <test-method signature="checkBoxTest()[pri:0, instance:testpackage.Checkbox@3bf7ca37]" started-at="2025-02-04T16:24:21 IST" name="checkBoxTest" finished-at="2025-02-04T16:24:29 IST" duration-ms="8359" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="emailtest()[pri:0, instance:com.application.testngtestcases.ActimePage@491b9b8]" started-at="2024-10-02T16:29:27 IST" name="emailtest" finished-at="2024-10-02T16:29:29 IST" duration-ms="2479" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- emailtest -->
-        <test-method signature="emailtest4()[pri:0, instance:com.application.testngtestcases.ActimePage@491b9b8]" started-at="2024-10-02T16:29:29 IST" name="emailtest4" finished-at="2024-10-02T16:29:31 IST" duration-ms="2021" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- emailtest4 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.application.testngtestcases.ActimePage@491b9b8]" started-at="2024-10-02T16:29:31 IST" name="tearDown" finished-at="2024-10-02T16:29:31 IST" duration-ms="124" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.application.testngtestcases.ActimePage -->
-    </test> <!-- EmailTest1 -->
-    <test started-at="2024-10-02T16:29:19 IST" name="EmailTest" finished-at="2024-10-02T16:29:33 IST" duration-ms="14493">
-      <class name="com.application.testngtestcases.ActimeTimePageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.application.testngtestcases.ActimeTimePageTest@4d0d9fe7]" started-at="2024-10-02T16:29:19 IST" name="setup" finished-at="2024-10-02T16:29:26 IST" duration-ms="7305" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="emailtest1()[pri:0, instance:com.application.testngtestcases.ActimeTimePageTest@4d0d9fe7]" started-at="2024-10-02T16:29:26 IST" name="emailtest1" finished-at="2024-10-02T16:29:30 IST" duration-ms="3689" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- emailtest1 -->
-        <test-method signature="zypher()[pri:0, instance:com.application.testngtestcases.ActimeTimePageTest@4d0d9fe7]" started-at="2024-10-02T16:29:30 IST" name="zypher" finished-at="2024-10-02T16:29:33 IST" duration-ms="3087" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- zypher -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.application.testngtestcases.ActimeTimePageTest@4d0d9fe7]" started-at="2024-10-02T16:29:33 IST" name="tearDown" finished-at="2024-10-02T16:29:33 IST" duration-ms="396" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.application.testngtestcases.ActimeTimePageTest -->
-    </test> <!-- EmailTest -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- checkBoxTest -->
+      </class> <!-- testpackage.Checkbox -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

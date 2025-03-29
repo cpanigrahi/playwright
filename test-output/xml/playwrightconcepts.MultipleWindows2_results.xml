@@ -4,14 +4,14 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="8.312">
+           time="15.595">
     <properties></properties>
 
 
 
             <testcase
                 name="windowHandles"
-                time="8.312"
+                time="15.595"
                 classname="playwrightconcepts.MultipleWindows2">
             </testcase>
 </testsuite>

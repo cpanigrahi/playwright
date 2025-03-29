@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Default test"
+<testsuite name="PlaywrightUI"
            tests="1"
            failures="0"
            errors="0"
            skipped="0"
-           time="10.230">
+           time="14.742">
     <properties></properties>
 
 
 
             <testcase
                 name="fileDownload"
-                time="10.230"
+                time="14.742"
                 classname="playwrightconcepts.FileDownload">
             </testcase>
 </testsuite>

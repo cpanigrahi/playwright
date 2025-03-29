@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="20.934">
+    <properties></properties>
+
+
+
+            <testcase
+                name="brokenLinkTest"
+                time="20.934"
+                classname="playwrightconcepts.BrokenLink">
+            </testcase>
+</testsuite>

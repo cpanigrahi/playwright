@@ -4,14 +4,14 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="21.991">
+           time="23.284">
     <properties></properties>
 
 
 
             <testcase
                 name="fileUpload"
-                time="21.991"
+                time="23.284"
                 classname="playwrightconcepts.FileUpload">
             </testcase>
 </testsuite>
