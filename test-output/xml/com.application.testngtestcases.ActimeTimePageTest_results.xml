@@ -4,19 +4,19 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="7.043">
+           time="7.323">
     <properties></properties>
 
 
 
             <testcase
-                name="emailtest1"
-                time="3.808"
+                name="zypher"
+                time="3.396"
                 classname="com.application.testngtestcases.ActimeTimePageTest">
             </testcase>
             <testcase
-                name="zypher"
-                time="3.235"
+                name="emailtest1"
+                time="3.927"
                 classname="com.application.testngtestcases.ActimeTimePageTest">
             </testcase>
 </testsuite>
